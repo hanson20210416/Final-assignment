@@ -1,0 +1,25 @@
+#Proposal
+
+Proposal: Understanding the relationship between the gene expressions and the tumor types in NSCLC.
+
+Lung cancer sample data is from a study to identify NSCLC tumor types. http://doi.org/10.7937/K9/TCIA.2015.L4FRET6Z   The gene expression data is from https://ftp.ncbi.nlm.nih.gov/geo/series/GSE58nnn/GSE58661/matrix
+
+Data is provided in several sources, a clinical lung cancer dataset and a gene expression data set, so we need first to load the different sources and then combine the sources in one data frame.
+
+The first question is: Is there a meaningful relationship between the gene expression and the tumor_types, and the expression value in different probes can help us know the tumor type? To answer this question, we will be examining the correlation between the expression values, and the tumor type in NSCLC. This will give us an understanding of how closely these variables are related, and if there is a significant relationship between them.
+
+The second question is: Are the tumor types related to the tumor size and patient gender? 
+
+In conclusion, our focus on these two critical questions will give us a better understanding of the relationship between tumor types and gene expression, as well as tumor size and gender. 
+
+this assignment consists of : 
+data loading,
+data cleaning ,
+data wrangling ,
+data inspection ,
+assumption ,
+statistics part ,
+argements ,
+visualisation ,
+interactive plots ,
+dashboard
